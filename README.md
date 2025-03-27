@@ -24,7 +24,7 @@ TD Prediction is an **online learning method** that updates the value function a
 - **Advantage:** Faster learning without full episodes
 
 #### **TD Prediction Output:**
-![TD Prediction Output](output_images/td_prediction.png)
+![TD Prediction Output](output_images/TD.png)
 
 ---
 
@@ -38,7 +38,7 @@ MC Prediction estimates the value function based on **full-episode returns**:
 - **Advantage:** Works well for episodic tasks
 
 #### **MC Prediction Output:**
-![MC Prediction Output](output_images/mc_prediction.png)
+![MC Prediction Output](output_images/MC.png)
 
 ---
 
@@ -51,7 +51,7 @@ Policy Iteration follows a **Dynamic Programming** approach:
 \[ V(s) = \sum_a \pi(a|s) \sum_{s'} P(s' | s, a) [R + \gamma V(s')] \]
 
 #### **Policy Iteration Output:**
-![Policy Iteration Output](output_images/policy_iteration.png)
+![Policy Iteration Output](output_images/DP.png)
 
 ---
 
@@ -63,7 +63,7 @@ Value Iteration is an **optimized version of Policy Iteration**, updating values
 - **Advantage:** Faster convergence by combining evaluation and improvement
 
 #### **Value Iteration Output:**
-![Value Iteration Output](output_images/value_iteration.png)
+![Value Iteration Output](output_images/VI.png)
 
 ---
 
