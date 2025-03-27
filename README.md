@@ -1,4 +1,4 @@
-# Reinforcement Learning Case Study
+# Reinforcement Learning Case Study - Grid World
 
 ## Overview
 This repository contains a case study on **Reinforcement Learning (RL)** using the **GridWorld problem**. The study implements and compares four different RL algorithms:
